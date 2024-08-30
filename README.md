@@ -38,6 +38,9 @@ git tag
 git tag -d tagName --> locally
 git push origin : tagNam --> remotly
 
+** Add Image
+![Image](/dazai.jpeg)
+
 
 
 
