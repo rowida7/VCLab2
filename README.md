@@ -16,29 +16,31 @@ git add .
 git commit -m "added test to testBranch"
 git commit origin test 
 
-* how to remove them locally and remotely
+**how to remove them locally and remotely**
 git branch -d branchName --> delete locally
 git push origin : branchName --> delete remotely
 
-* how to checkout another branch without commit changes
+**how to checkout another branch without commit changes**
 git stash
 git checkout branchName
-
- **************************************
  
-* Create an annotated tag with tagname (v1.7) & push it in remote repository.
+ **Create an annotated tag with tagname (v1.7) & push it in remote repository.**
 
 git tag -a v1.7 -m "version1.7"  
 git push origin v1.7
 
-* how to list tags.
+**how to list tags.**
 git tag
 
-* how to delete tag locally and remotely.
+**how to delete tag locally and remotely.**
 git tag -d tagName --> locally
 git push origin : tagNam --> remotly
 
-** Add Image
+** Add Image ![alt text](Link)
+
+
+
+
 ![Image](/dazai.jpeg)
 
 
